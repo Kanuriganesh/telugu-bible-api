@@ -1,4 +1,4 @@
-const sqlite3 = require('sqlite3').verbose();  //getting sqlite3 version 
+const sqlite3 = require('sqlite3').verbose();  //getting sqlite3 version  
 const path = require('path');  
 
 // The database file will live in the 'data' folder

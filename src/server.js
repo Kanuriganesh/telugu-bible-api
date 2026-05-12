@@ -16,6 +16,5 @@ const db = new sqlite3.Database('./data/bible.db', (err) => {
     else console.log("Connected to Verse Database.");
 });
 
-
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Verse API running on port ${PORT}`));
+const PORT = process.env.PORT || 10000;
+app.listen(PORT,'0.0.0.0', () => console.log(`Verse API running on port ${PORT}`));
